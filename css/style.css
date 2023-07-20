@@ -1,0 +1,148 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  background-color: rgb(252, 249, 238);
+}
+
+h2{
+  font-size: 32px;
+}
+.mt-10{ margin-top: 10px !important;}
+.mb-10{ margin-bottom: 10px !important;}
+
+.bg-yellow{
+  background-color: rgb(254, 226, 122);
+}
+
+.alert{
+  display: none;
+  font-size: 20px;
+  background-color: rgb(255, 86, 86);
+  border-radius: 5px;
+  padding: 3px;
+  color:white;
+}
+
+.success{
+  display: none;
+  font-size: 20px;
+  background-color: rgb(86, 209, 86);
+  border-radius: 5px;
+  padding: 3px;
+  color:white;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arial{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark{
+  color:rgb(86, 85, 85);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.no-select{
+  user-select: none;
+}
+
+.input-movie{
+  text-align: center;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-movie:hover{
+  background-color: rgb(255, 247, 199);
+}
+
+.btn-movie{
+  font-size: 18px;
+  cursor: pointer;
+  color:rgb(97, 97, 97);
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid grey;
+  filter: blur(.0px);
+  transition: .3s;
+}
+
+.btn-movie:hover{
+  transition: .3s;
+  background-color: rgb(253, 200, 100);
+}
+
+.movie{
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 10px;
+  padding:10px;
+  margin-top: 20px;
+  user-select: none;
+  transition: .3s;
+  transform: translateX(400px);
+  opacity: 0;
+}
+
+.movie:hover{
+  cursor: pointer;
+}
+
+.show{
+  opacity: 1;
+  transition: .3s;
+  transform: translateX(0);
+}
+
+.description{
+  display: none;
+  user-select: none;
+  z-index: 2;
+  font-size: 22px;
+  position: fixed;
+  border: 2px solid rgb(155, 155, 155);
+  padding: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgb(255, 250, 214);
+  top: 200px;
+}
+
+.cross-close{
+  float:right !important;
+  font-size: 24px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgb(255, 255, 255) !important;
+  transition: .1s;
+}
+
+.cross-close:hover{
+  transition: .1s;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.text-description{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(99, 99, 99);
+}

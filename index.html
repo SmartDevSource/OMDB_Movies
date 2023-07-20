@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" href = "css/style.css">
+  </head>
+
+  <body>
+    <div class = "flex-center bg-yellow">
+      <h2 class = "text-center dark arial no-select"> Rechercher un film </h2>
+      <input class = "input-movie" type = "text" placeholder="Titre du film" id = "input_movie" value = "taxi">
+      <button class = "btn-movie mt-10 mb-10 no-select" id = "btn_search">Rechercher</button>
+    </div>
+
+    <div class = "flex-center mt-10" id = "div_content">
+      <span class = "alert no-select mb-10" id = "span_alert">Film non trouvé</span>
+      <span class = "success no-select mb-10" id = "span_success"></span>
+
+        <div class = "description" id = "div_description">
+          <span class = "cross-close" id = "span_cross_close">X</span>
+          <p class = "text-description" id = "text_actors"></p>
+          <p class = "text-description" id = "text_country"></p>
+          <p class = "text-description" id = "text_date"></p>
+          <p class = "text-description" id = "text_duration"></p>
+          <p class = "text-description" id = "text_rate"></p>
+        </div>
+        
+        <div class = "movies" id = "div_movies_found">
+
+        </div>
+
+    </div>
+
+    <script type = "text/javascript" src = "js/index.js"></script>
+  </body>
+</html>
+
+</html>
